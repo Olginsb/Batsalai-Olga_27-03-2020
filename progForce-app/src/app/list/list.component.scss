@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  h2 {
+    align-items: center;
+  }
+  .gallery {
+    width: 100%;
+    height: 100%;
+    h2 {
+      margin: 0 auto;
+    }
+    .example-card {
+      width: 300px;
+      height: 300px;
+      background-color: lightgrey;
+      justify-content: center;
+
+      .material-icons {
+        position: absolute;
+        cursor: pointer;
+        color: white;
+      }
+      .selected {
+        color: dimgrey;
+      }
+
+
+      img {
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+      }
+    }
+  }
+  .list {
+    width: 30%;
+    height: 100%;
+    margin: 10px;
+    .remove {
+      font-weight: bold;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}
+

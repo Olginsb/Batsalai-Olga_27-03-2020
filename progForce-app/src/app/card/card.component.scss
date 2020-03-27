@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  .content {
+    margin: 10px;
+    .close {
+
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .material-icons {
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+
